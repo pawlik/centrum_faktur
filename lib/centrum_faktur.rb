@@ -11,8 +11,6 @@ require "centrum_faktur/user"
 require "centrum_faktur/payment"
 
 module CentrumFaktur
-  API_VERSION = "1.0"
-
   class << self
     attr_accessor :login, :password, :subdomain
 
